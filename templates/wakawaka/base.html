@@ -1,0 +1,17 @@
+{% extends "site_base.html" %}
+{% load i18n %}
+
+{% block head_title %}{% spaceless %}{% block title %}{% endblock %}{% endspaceless %}{% endblock %}
+
+{% block subnav %}
+    <ul>
+    	<li><a href="{% url wakawaka_index %}">{% trans "Start" %}</a></li>
+        <li><a href="{% url wakawaka_revision_list %}">{% trans "Recent revisions" %}</a></li>
+        <li><a href="{% url wakawaka_page_list %}">{% trans "All Pages" %}</a></li>
+    </ul>
+{% endblock %}
+
+{% block body %}
+    {% block content %}
+    {% endblock %}
+{% endblock %}

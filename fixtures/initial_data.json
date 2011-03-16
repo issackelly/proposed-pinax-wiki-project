@@ -1,0 +1,32 @@
+[
+    {
+        "pk": 1, 
+        "model": "sites.site", 
+        "fields": {
+            "domain": "example.com", 
+            "name": "Example Site"
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "wakawaka.wikipage", 
+        "fields": {
+            "slug": "WikiIndex", 
+            "modified": "2011-03-15 20:55:45", 
+            "created": "2011-03-15 20:55:45"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "wakawaka.revision", 
+        "fields": {
+            "creator_ip": "127.0.0.1", 
+            "created": "2011-03-15 20:55:45", 
+            "creator": null, 
+            "modified": "2011-03-15 20:55:45", 
+            "content": "First!", 
+            "message": "First Revision", 
+            "page": 1
+        }
+    }
+]
